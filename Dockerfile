@@ -5,6 +5,7 @@ RUN curl -sL https://github.com/openfaas/faas/releases/download/0.9.14/fwatchdog
 
 ENV fprocess="python3 service2.py"
 ENV SERVICE1_URL="http://service1:8080"
+ENV HASH_FUNCTION="md5"
 
 WORKDIR /app
 
