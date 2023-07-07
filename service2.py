@@ -12,6 +12,7 @@ def main():
 
     data = [HASH_FUNCTION, message]
 
+    # komentar
     print(requests.post(SERVICE1_URL, data="\n".join(data)).text)
 
 if __name__ == "__main__":
